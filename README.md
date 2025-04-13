@@ -3,7 +3,7 @@ Frontend Mentor - Huddle landing page with curved sections
 
 ### Links
 
-- Live Site URL: [Here]()
+- Live Site URL: [Here](https://mahmoudbadrali.github.io/Huddle-landing-page-with-curved-sections/)
 
 ## Author
 
