@@ -26,9 +26,6 @@ a:focus {
     outline: none;
 }
 
-a:hover {
-    opacity: 0.6;
-}
 
 header .top {
     padding-top: 70px;
@@ -128,6 +125,9 @@ header .top a {
     transition: 0.3s;
 }
 
+header .top a:hover {
+    opacity: 0.6;
+}
 
 header .middle {
     display: -webkit-box;
@@ -170,6 +170,10 @@ header .middle a {
     transition: 0.3s;
     font-weight: 700;
     margin-bottom: 70px;
+}
+
+header .middle a:hover {
+    background-color: var(--light-pink);
 }
 
 .landing {
@@ -458,6 +462,10 @@ header .middle a {
     margin-bottom: 70px;
 }
 
+.ready a:hover {
+    background-color: var(--light-pink);
+}
+
 @media (max-width: 481px) {
     .ready a {
         padding: 15px 50px !important;
@@ -627,7 +635,7 @@ footer .right form {
 }
 
 footer .right form .error {
-    color: red;
+    color: var(--light-red);
     font-size: 12px;
     display: none;
     position: absolute;
@@ -638,15 +646,15 @@ footer .right form .error {
 }
 
 footer .right form input[type="email"]:invalid:not(:-moz-placeholder-shown) {
-    border: 1px solid red;
+    border: 1px solid var(--light-red);
 }
 
 footer .right form input[type="email"]:invalid:not(:-ms-input-placeholder) {
-    border: 1px solid red;
+    border: 1px solid var(--light-red);
 }
 
 footer .right form input[type="email"]:invalid:not(:placeholder-shown) {
-    border: 1px solid red;
+    border: 1px solid var(--light-red);
 }
 
 footer .right form input[type="email"]:invalid:not(:-moz-placeholder-shown)~.error {
@@ -707,7 +715,7 @@ footer .right form input[type="submit"] {
 }
 
 footer .right form input[type="submit"]:hover {
-    opacity: 0.6;
+    background-color: var(--light-pink);
 }
 
 @media (max-width: 992px) {
